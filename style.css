@@ -1,0 +1,53 @@
+/* ---------------- RESET ---------------- */ 
+* { 
+box-sizing: border-box; 
+margin: 0; 
+padding: 0; 
+} 
+/* ---------------- BODY ---------------- */ 
+body { 
+font-family: Arial, sans-serif; 
+padding: 40px; 
+} 
+/* ---------------- BASE BUTTON ---------------- */ 
+.btn { 
+display: inline-block; 
+padding: 10px 20px; 
+border-radius: 6px; 
+cursor: pointer; 
+border: none; 
+margin-right: 10px; 
+} 
+/* ---------------- VARIANTS ---------------- */ 
+/* Primary */ 
+.btn-primary { 
+background: #4f46e5; 
+color: white; 
+} 
+/* Secondary */ 
+.btn-secondary { 
+background: #6b7280; 
+color: white; 
+} 
+/* Outline */ 
+.btn-outline { 
+background: transparent; 
+border: 2px solid #4f46e5; 
+color: #4f46e5; 
+} 
+/* ---------------- HOVER ---------------- */ 
+.btn:hover { 
+opacity: 0.8; 
+} 
+/* ---------------- DISPLAY DEMO ---------------- */ 
+.box { 
+display: block; 
+background: lightblue; 
+padding: 10px; 
+margin-bottom: 10px; 
+} 
+.inline { 
+display: inline; 
+background: lightcoral; 
+padding: 5px; 
+}
